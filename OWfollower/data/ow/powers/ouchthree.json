@@ -1,0 +1,17 @@
+{
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:glowing",
+            "amplifier": 255,
+            "duration": 1200
+        }
+    },
+    "damage_condition": {
+        "type": "origins:amount",
+        "comparison": ">=",
+        "compare_to": 0.5
+    },
+    "cooldown": 1200
+}

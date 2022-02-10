@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"ow:hoe",
+		"ow:health",
+		"ow:buff",
+		"ow:nom",
+		"ow:ouch",
+		"ow:ouchtwo",
+		"ow:ouchthree",
+		"ow:immune"
+	],
+	"icon": "minecraft:allium",
+	"order": 10,
+	"impact": 1,
+	"name": "OW Follower",
+	"description": "A follower of the Overworld god blessed with some abilities"
+}

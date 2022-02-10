@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"flame:ouch",
+		"flame:fire_immunity",
+		"flame:lava_vision",
+		"flame:lava_speed",
+		"flame:fire_punch",
+		"flame:burn_day",
+		"flame:particles",
+		"flame:hungry",
+		"flame:no_water",
+		"flame:color"
+	],
+	"icon": "minecraft:campfire",
+	"order": 10,
+	"impact": 2,
+	"name": "Flameborne",
+	"description": "Powerful warriors of fire, their flime is your demise"
+}

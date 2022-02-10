@@ -1,0 +1,8 @@
+{
+    "type": "origins:effect_immunity",
+    "effects": [
+		"minecraft:water_breathing",
+		"minecraft:strength",
+		"minecraft:absorption"
+    ]
+}

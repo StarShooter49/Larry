@@ -1,0 +1,15 @@
+{
+    "type": "origins:fire_projectile",
+    "entity_type": "minecraft:snowball",
+    "cooldown": 10,
+    "hud_render": {
+        "should_render": false
+    },
+    "count": 1,
+    "interval": 5,
+    "tag": "{Item: {id: 'minecraft:snowball', Count: 1b}}",
+    "key": {
+        "key": "key.g",
+        "continuous": false
+    }
+}
