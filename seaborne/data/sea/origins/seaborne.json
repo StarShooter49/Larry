@@ -1,0 +1,15 @@
+{
+	"powers": [
+		"sea:oops_on_fire",
+		"sea:water_speed",
+		"sea:water_vision",
+		"sea:water_breathing",
+		"sea:water_strength",
+		"sea:ouch"
+	],
+	"icon": "minecraft:water_bucket",
+	"order": 10,
+	"impact": 2,
+	"name": "Seaborne",
+	"description": "The Seaborne are the more ancient and powerful relatives of the Merling, adapt at sea and land."
+}

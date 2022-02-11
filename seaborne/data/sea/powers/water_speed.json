@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_swim_speed",
+    "modifier": {
+        "operation": "addition",
+        "value": 0.02,
+		"name": "Fast Swimmer",
+		"description": "Being born of the sea, you are a natural swimmer."
+		}
+}

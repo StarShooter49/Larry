@@ -1,0 +1,17 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "condition": {
+        "type": "origins:in_block_anywhere",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:water"
+        },
+        "comparison": ">=",
+        "compare_to": 1
+    },
+    "modifier": {
+        "name": "Extra damage when submerged",
+        "operation": "addition",
+        "value": 3.0
+    }
+}
