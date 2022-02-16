@@ -1,0 +1,20 @@
+{
+	"powers": [
+		"end:waterbad",
+		"end:ouch",
+		"end:boing",
+		"end:slowfall",
+		"end:nightvision",
+		"end:health",
+		"end:pearl",
+		"end:particle",
+		"end:ouch_two",
+		"end:glow",
+		"end:ouch_three"
+	],
+	"icon": "minecraft:cobblestone",
+	"order": 10,
+	"impact": 1,
+	"name": "END follower",
+	"description": "devoted to the god of the end"
+}
