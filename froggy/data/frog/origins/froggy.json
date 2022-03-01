@@ -1,0 +1,24 @@
+{
+	"powers": [
+		"frog:big_jumpies",
+		"frog:break_fast",
+		"frog:breathe",
+		"frog:breathe_two",
+		"frog:climb",
+		"frog:fall",
+		"frog:foreverburn",
+		"frog:jumpies",
+		"frog:less_health",
+		"frog:meat",
+		"frog:see",
+		"frog:smolman",
+		"frog:water_zoomies",
+		"frog:weak_little_arms",
+		"frog:weaktofire"
+	],
+	"icon": "minecraft:packed_ice",
+	"order": 10,
+	"impact": 2,
+	"name": "Froggy",
+	"description": "Emma is canonically and literally a frog now"
+}

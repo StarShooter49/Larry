@@ -11,7 +11,7 @@
     "damage_condition": {
         "type": "origins:amount",
         "comparison": ">=",
-        "compare_to": 2
+        "compare_to": 4
     },
     "cooldown": 1200
 }
