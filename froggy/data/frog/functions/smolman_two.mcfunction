@@ -1,5 +1,5 @@
-scale set pehkui:height .75 @s
-scale set pehkui:width .75 @s
+scale set pehkui:height .65 @s
+scale set pehkui:width .65 @s
 
 
 
