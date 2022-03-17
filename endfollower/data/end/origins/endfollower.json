@@ -10,7 +10,8 @@
 		"end:particle",
 		"end:ouch_two",
 		"end:glow",
-		"end:ouch_three"
+		"end:ouch_three",
+		"end:ride"
 	],
 	"icon": "minecraft:cobblestone",
 	"order": 10,
