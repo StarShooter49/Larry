@@ -1,0 +1,41 @@
+{
+	"type": "origins:multiple",
+	"water_damage": {
+		"type": "origins:damage_over_time",
+		"interval": 5,
+		"onset_delay": 1,
+		"damage": 2.5,
+		"damage_easy": 2,
+		"damage_source": {
+			"name": "hurt_by_water",
+			"unblockable": true,
+			"bypasses_armor": true
+		},
+		"protection_enchantment": "origins:water_protection",
+		"protection_effectiveness": 0.7,
+		"condition": {
+			"type": "origins:or",
+			"conditions": [
+				{
+					"type": "origins:fluid_height",
+					"fluid": "minecraft:water",
+					"comparison": ">",
+					"compare_to": 0.0
+				},
+				{
+					"type": "origins:in_rain"
+				}
+			]
+		}
+	},
+	"water_slowdown": {
+		"type": "origins:modify_swim_speed",
+		"modifier": {
+			"operation": "multiply_total",
+			"value": -0.6,
+			"name": "water slowness"
+		}
+	},
+	"name": "Hydrophobia",
+	"description": "You recieve significant damage over time while in contact with water."
+}

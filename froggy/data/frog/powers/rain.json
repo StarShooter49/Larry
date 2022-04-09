@@ -1,0 +1,29 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -20,
+    "max_stacks": 1,
+    "duration_per_stack": 25,
+    "effects": [
+        {
+            "effect": "minecraft:regeneration",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+        {
+            "effect": "minecraft:speed",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        },
+		{
+			"effect":"minecraft:glowing",
+			"is_ambient":true,
+			"show_particles":false,
+			"show_icon": true
+		}
+    ],
+    "condition": {
+        "type": "origins:in_rain"
+    }
+}

@@ -1,0 +1,24 @@
+{
+	"powers": [
+		"astr:water_bad",
+		"astr:ouch",
+		"astr:boing",
+		"astr:slowfall",
+		"astr:nightvision",
+		"astr:health",
+		"astr:pearl",
+		"astr:particle",
+		"astr:ouch_two",
+		"astr:glow",
+		"astr:ride",
+		"astr:me_glow",
+		"astr:bow",
+		"astr:slow_falling",
+		"astr:fire_damage"
+	],
+	"icon": "minecraft:cobblestone",
+	"order": 10,
+	"impact": 1,
+	"name": "Star",
+	"description": "Star origin, like the end follower but better"
+}
