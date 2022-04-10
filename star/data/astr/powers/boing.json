@@ -22,11 +22,6 @@
                 "type": "origins:execute_command",
                 "command": "playsound minecraft:entity.illusioner.prepare_blindness master @a[distance=..20] ~ ~ ~ 1000 2",
                 "permission_level": 4
-            },
-            {
-                "type": "origins:execute_command",
-                "command": "summon firework_rocket ~ ~-1 ~ {LifeTime:0,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Explosions:[{Type:2,Colors:[I;16776960],FadeColors:[I;16776960]}]}}}}",
-                "permission_level": 4
             }
         ]
     },
