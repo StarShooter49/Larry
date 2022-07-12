@@ -1,10 +1,14 @@
 {
-    "type": "origins:self_glow",
-    "bientity_condition": {
-        "type": "origins:can_see"
-    },
-    "use_teams": false,
-    "red": 1.0,
-    "green": 0.0,
-    "blue": 0.0
-}
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 400,
+    "effects": [
+        {
+            "effect": "minecraft:glowing",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": false
+        }
+    ],
+    "hidden": true

@@ -12,7 +12,7 @@
 	"entity_action":{
 	"type": "origins:add_velocity",
 	
-		"z": 1.50,
+		"z": 1.75,
 		"space": "local",
 		"set": true
 },
