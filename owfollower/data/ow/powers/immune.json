@@ -1,0 +1,9 @@
+{
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:invisibility",
+        "minecraft:strength",
+		"minecraft:jump_boost",
+		"minecraft:slowness"
+    ]
+}
