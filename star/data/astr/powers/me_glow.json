@@ -5,7 +5,7 @@
     "duration_per_stack": 400,
     "effects": [
         {
-            "effect": "minecraft:glowing",
+            "effect": "minecraft:slowfalling",
             "is_ambient": true,
             "show_particles": false,
             "show_icon": false
