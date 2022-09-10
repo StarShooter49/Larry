@@ -1,0 +1,12 @@
+{
+    "type": "origins:action_on_land",
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "fill ~1 ~-1 ~1 ~-1 ~-1 ~-1 minecraft:air replace minecraft:grass_block"
+    },
+    "condition": {
+        "type": "origins:fall_distance",
+        "comparison": ">",
+        "compare_to": 4
+    }
+}
