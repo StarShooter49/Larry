@@ -15,7 +15,8 @@
 		"d:smolman",
 		"d:walk_on_water",
 		"d:water_zoomies",
-		"d:zoomies"
+		"d:zoomies",
+		"d:elytra"
 	],
 	"icon": "minecraft:egg",
 	"order": 10,

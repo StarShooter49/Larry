@@ -12,7 +12,7 @@
 			"bypasses_armor": true
 		},
 		"protection_enchantment": "origins:water_protection",
-		"protection_effectiveness": 0.7,
+		"protection_effectiveness": 0.5,
 		"condition": {
 			"type": "origins:or",
 			"conditions": [
