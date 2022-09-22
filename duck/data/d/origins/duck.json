@@ -16,7 +16,8 @@
 		"d:walk_on_water",
 		"d:water_zoomies",
 		"d:zoomies",
-		"d:elytra"
+		"d:elytra",
+		"d:freedom_calls"
 	],
 	"icon": "minecraft:egg",
 	"order": 10,
