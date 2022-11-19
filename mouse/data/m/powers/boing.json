@@ -10,7 +10,7 @@
             }
         ]
     },
-    "cooldown": 30,
+    "cooldown": 20,
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
