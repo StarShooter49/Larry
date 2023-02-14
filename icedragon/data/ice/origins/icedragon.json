@@ -1,0 +1,28 @@
+{
+	"powers": [
+		"ice:snowflake_particles",
+		"ice:snowballs_damage", 
+		"ice:snow_particles",
+		"ice:reach",
+		"ice:more_armor",
+		"ice:pyrophobia",
+		"ice:nonshiny",
+		"ice:no_stone_tools",
+		"ice:no_leather_armor",
+		"ice:no_chainmail_armor",
+		"ice:large_appetite",
+		"ice:hot_biome",
+		"ice:frostwalkertoggle",
+		"ice:icy_breath",
+		"ice:flight",
+		"ice:cold_power",
+		"ice:carnivore",
+		"ice:multi_snowballs",
+		"ice:multi_snowballs_cooldown"
+	],
+	"icon": "minecraft:ice",
+	"order": 10,
+	"impact": 2,
+	"name": "Ice Dragon",
+	"description": "A large scary ice dragon"
+}
