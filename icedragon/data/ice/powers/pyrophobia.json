@@ -88,15 +88,4 @@
 		}
 	},
 	
-	"more_playerexplosion_damage": {
-		"type": "origins:modify_damage_taken",
-		"damage_condition": {
-			"type": "origins:name",
-			"name": "explosion.player"
-		},
-		"modifier": {
-			"operation": "multiply_total",
-			"value": 2
-		}
-	}
 }

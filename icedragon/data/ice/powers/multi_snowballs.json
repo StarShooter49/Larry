@@ -10,7 +10,7 @@
 	"divergence": 10,
 	"sound": "minecraft:entity.snowball.throw",
 	"key": {
-		"key": "key.origins.secondary_active",
+		"key": "key.origins.primary_active",
 		"continuous": true
 	},
 	"name": "Multi-Snowballs",

@@ -1,6 +1,6 @@
 {
     "type": "origins:stacking_status_effect",
-    "min_stacks": 0,
+    "min_stacks": -20,
     "max_stacks": 1,
     "duration_per_stack": 400,
     "effects": [
@@ -12,3 +12,4 @@
         }
     ],
     "hidden": true
+}
