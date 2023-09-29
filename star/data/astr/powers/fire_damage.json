@@ -5,7 +5,7 @@
   },
   "modifier": {
     "name": "Additional damage while on fire",
-    "value": 3,
+    "value": 3.0,
     "operation": "addition"
   }
 }

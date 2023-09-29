@@ -4,15 +4,15 @@
 		"type": "origins:damage_over_time",
 		"interval": 5,
 		"onset_delay": 1,
-		"damage": 2.5,
-		"damage_easy": 2,
+		"damage": 2,
+		"damage_easy": 1.5,
 		"damage_source": {
 			"name": "hurt_by_water",
 			"unblockable": true,
 			"bypasses_armor": true
 		},
 		"protection_enchantment": "origins:water_protection",
-		"protection_effectiveness": 0.5,
+		"protection_effectiveness": 1.0,
 		"condition": {
 			"type": "origins:or",
 			"conditions": [
@@ -32,7 +32,7 @@
 		"type": "origins:modify_swim_speed",
 		"modifier": {
 			"operation": "multiply_total",
-			"value": -0.6,
+			"value": -0.4,
 			"name": "water slowness"
 		}
 	},

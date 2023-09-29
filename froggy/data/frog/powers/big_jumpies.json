@@ -1,6 +1,6 @@
 {
 	"type": "origins:active_self",
-	"cooldown": 80,
+	"cooldown": 180,
 	"hud_render": {
 		"should_render": true,
 		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
@@ -12,7 +12,7 @@
 	"entity_action":{
 	"type": "origins:add_velocity",
 	
-		"z": 1.75,
+		"z": 1.2,
 		"space": "local",
 		"set": true
 },

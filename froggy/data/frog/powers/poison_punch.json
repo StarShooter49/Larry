@@ -13,12 +13,12 @@
         "show_icon": false
       }
     },
-    "chance": 0.7
+    "chance": 0.25
   },
   "cooldown": 0,
   "hud_render": {
     "should_render": false
   },
   "name": "Disease",
-  "description": "Rats carry disease, and they transfer it through hitting."
+  "description": "poisonous frog you"
 }

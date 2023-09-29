@@ -7,7 +7,7 @@
                 "type": "origins:apply_effect",
                 "effect": {
                     "effect": "minecraft:resistance",
-                    "duration": 250,
+                    "duration": 200,
                     "amplifier": 70,
                     "show_icon": false,
                     "show_particles": false
@@ -15,7 +15,7 @@
             },
             {
                 "type": "origins:add_velocity",
-                "z": 2.0,
+                "z": 1.5,
                 "space": "local"
             },
             {
@@ -25,7 +25,7 @@
             }
         ]
     },
-    "cooldown": 210,
+    "cooldown": 275,
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",

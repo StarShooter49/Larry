@@ -2,7 +2,7 @@
   "type": "origins:modify_jump",
   "modifier": {
     "name": "Bonus jump force while sprinting",
-    "value": 0.75,
+    "value": 0.50,
     "operation": "multiply_base"
   },
   "condition": {

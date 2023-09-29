@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"draz:protec",
+		"draz:protec_two",
+		"draz:protec_three",
+		"draz:protec_four",
+		"draz:see", 
+		"draz:water_zoomies",
+		"draz:ouch",
+		"draz:large_appetite",
+		"draz:flight",
+		"draz:damage"
+	],
+	"icon": "minecraft:magenta_wool",
+	"order": 10,
+	"impact": 2,
+	"name": "Draziel",
+	"description": "its ya boi"
+}

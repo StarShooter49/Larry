@@ -2,7 +2,7 @@
     "type": "origins:stacking_status_effect",
     "min_stacks": -20,
     "max_stacks": 1,
-    "duration_per_stack": 25,
+    "duration_per_stack": 10,
     "effects": [
         {
             "effect": "minecraft:regeneration",

@@ -3,8 +3,8 @@
     "entity_action": {
         "type": "origins:apply_effect",
         "effect": {
-            "effect": "minecraft:slowness",
-            "amplifier": 1,
+            "effect": "minecraft:blindness",
+            "amplifier": 255,
             "duration": 200
         }
     },
