@@ -3,15 +3,15 @@
     "entity_action": {
         "type": "origins:apply_effect",
         "effect": {
-            "effect": "minecraft:blindness",
-            "amplifier": 255,
-            "duration": 200
+            "effect": "minecraft:hunger",
+            "amplifier": 10,
+            "duration": 100
         }
     },
     "damage_condition": {
         "type": "origins:amount",
         "comparison": ">=",
-        "compare_to": 2.0
+        "compare_to": 1.0
     },
-    "cooldown": 1200
+    "cooldown": 0
 }
