@@ -9,7 +9,8 @@
 		"rat:nimble_limbs_two",
 		"rat:nimble_limbs",
 		"rat:low_health",
-		"rat:disease"
+		"rat:disease",
+		"rat:ride"
 	],
 	"icon": "minecraft:lily_pad",
 	"order": 10,

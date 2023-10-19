@@ -3,7 +3,7 @@
     "modifier": {
         "attribute": "minecraft:generic.attack_speed",
         "operation": "addition",
-        "value": 15
+        "value": 5
     },
 	"hidden": true
 }
