@@ -1,0 +1,27 @@
+{
+	"powers": [
+		"d:air_zoomies",
+		"d:crash",
+		"d:crouch_fall",
+		"d:egg",
+		"d:exhaustion",
+		"d:forever_burn",
+		"d:freeze",
+		"d:health",
+		"d:jumpies",
+		"d:launch",
+		"d:ride",
+		"d:slowfall",
+		"d:smolman",
+		"d:walk_on_water",
+		"d:water_zoomies",
+		"d:zoomies",
+		"d:elytra",
+		"d:freedom_calls"
+	],
+	"icon": "minecraft:egg",
+	"order": 10,
+	"impact": 2,
+	"name": "Duck",
+	"description": "you are duck"
+}
