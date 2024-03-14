@@ -1,0 +1,30 @@
+{
+    "type": "origins:restrict_armor",
+    "name": "Not Shiny Enough",
+    "description": "You can only wear armor or use tools made of gold or diamond.",
+    "hidden": false,
+    "head": {
+        "type": "origins:ingredient",
+            "ingredient":{
+            "item": "minecraft:iron_helmet"
+	}
+    },
+    "chest": {
+        "type": "origins:ingredient",
+            "ingredient":{
+            "item": "minecraft:iron_chestplate"
+	}
+    },
+    "legs": {
+        "type": "origins:ingredient",
+            "ingredient":{
+            "item": "minecraft:iron_leggings"
+	}
+    },
+    "feet": {
+        "type": "origins:ingredient",
+            "ingredient":{
+            "item": "minecraft:iron_boots"
+			}		
+    }
+}

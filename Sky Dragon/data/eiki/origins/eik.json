@@ -1,0 +1,29 @@
+{
+	"powers": [
+		"eiki:boing",
+		"eiki:no_chainmail_armor",
+		"eiki:no_iron_armor",
+		"eiki:no_leather_armor",
+		"eiki:no_stone_tools",
+		"eiki:nonshiny",
+		"water_bad",
+		"eiki:meat",
+		"eiki:kinetic",
+		"eiki:jump",
+		"eiki:hungry",
+		"eiki:no_shield",
+		"eiki:wing",
+		"eiki:zoom",
+		"eiki:air_zoom",
+		"eiki:air_punch",
+		"eiki:health",
+		"eiki:breath",
+		"eiki:claus",
+		"eiki:smolman"
+	],
+	"icon": "minecraft:feather",
+	"order": 10,
+	"impact": 2,
+	"name": "Sky Dragon",
+	"description": "Sky Dragon go zoom in air"
+}
