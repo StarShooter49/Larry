@@ -1,0 +1,22 @@
+{
+	"powers": [
+		"archive:chargetp",
+		"archive:copymainhand",
+		"archive:edible_enchantments",
+		"archive:exhaustion",
+		"archive:nasty_bite",
+		"archive:gaze",
+		"archive:smolman",
+		"archive:steal",
+		"archive:no_weapons",
+		"archive:inv",
+		"archive:large_appetite",
+		"archive:armor",
+		"archive:pearl"
+	],
+	"icon": "minecraft:shulker_box",
+	"order": 10,
+	"impact": 2,
+	"name": "Dimensional Archivest",
+	"description": "gonna steal your socks"
+}

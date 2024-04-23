@@ -1,0 +1,69 @@
+ {
+    "type": "origins:active_self",
+    "name": "Library Looter",
+    "description": "You can slurp the enchantments right off of books, sustaining yourself and gaining experience",
+    "condition": {
+        "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "item": "minecraft:enchanted_book"
+                        }
+                    }
+                },
+                {      
+                    "type": "origins:sneaking"
+                }
+            ]
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "playsound item.honey_bottle.drink player @s",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:feed",
+                "food": 5,
+                "saturation": 2.5
+            },
+            {
+                "type": "origins:give",
+                "stack": {
+                    "item": "minecraft:book",
+                    "amount": 1
+                }
+            },
+            {
+                "type": "origins:modify_inventory",
+                "inventory_type": "inventory",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient":{
+                        "item": "minecraft:enchanted_book"
+                    }
+                },
+                "item_action": {
+                    "type": "origins:consume",
+                    "amount": 1
+                },
+                "slot": "weapon.mainhand"
+            },
+            {
+                "type": "origins:add_xp",
+                "points": 30
+            }
+        ]
+    },
+    "key": "key.use",
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": false
+    }
+}
