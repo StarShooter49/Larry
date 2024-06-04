@@ -1,0 +1,26 @@
+{
+	"powers": [
+		"quetz:air_zoom",
+		"quetz:exhaustion",
+		"quetz:fire_damage",
+		"quetz:forever_burn",
+		"quetz:health",
+		"quetz:hungie",
+		"quetz:me_glow",
+		"quetz:ouch",
+		"quetz:smolman",
+		"quetz:underground",
+		"quetz:wing",
+		"quetz:zoom",
+		"quetz:fire_immunity",
+		"quetz:rain",
+		"quetz:kinetic_damage",
+		"quetz:immune",
+		"quetz:flap"
+	],
+	"icon": "minecraft:feather",
+	"order": 10,
+	"impact": 0,
+	"name": "Quetzalcoatl",
+	"description": "God of the sky, seas, and west, take flight"
+}

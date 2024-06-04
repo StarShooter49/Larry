@@ -1,0 +1,17 @@
+{
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:hunger",
+            "amplifier": 9,
+            "duration": 150
+        }
+    },
+    "damage_condition": {
+        "type": "origins:amount",
+        "comparison": ">=",
+        "compare_to": 1.0
+    },
+    "cooldown": 0
+}

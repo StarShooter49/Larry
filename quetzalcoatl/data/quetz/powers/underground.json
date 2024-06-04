@@ -1,0 +1,40 @@
+{
+    "type": "origins:multiple",
+    "underground": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": -5,
+        "max_stacks": 1,
+        "duration_per_stack": 250,
+        "effects": [
+            {
+                "effect": "minecraft:slowness",
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false
+            },
+  	    {
+                "effect": "minecraft:weakness",
+                "is_ambient": true,
+                "show_particles": false,
+                "show_icon": false
+            }
+        ],
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:distance_from_coordinates",
+                    "ignore_x": true,
+                    "ignore_z": true,
+                    "comparison": "<=",
+                    "compare_to": 60
+                },
+                {
+                    "type": "origins:dimension",
+                    "dimension": "minecraft:overworld",
+                    "inverted": true
+                }
+            ]
+        }
+    }
+}
