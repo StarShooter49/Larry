@@ -1,0 +1,11 @@
+{
+    "type": "origins:exhaust",
+    "interval": 30,
+    "exhaustion": -1.5,
+    "condition": {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": ">",
+        "compare_to": 0.0
+    }
+}

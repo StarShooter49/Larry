@@ -1,0 +1,11 @@
+{
+    "name": "Low Health",
+    "description": "You have 2 less hearts because you are smaller.",
+    "type": "origins:attribute",
+    "modifier": {
+        "name": "Fragile health reduction",
+        "attribute": "minecraft:generic.max_health",
+        "value": -6.0,
+        "operation": "addition"
+    }
+}

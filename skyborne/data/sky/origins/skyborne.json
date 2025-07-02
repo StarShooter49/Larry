@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"sky:more_hunger",
+		"sky:kinetic_damage",
+		"sky:sprint_jump",
+		"sky:launch",
+		"sky:flying_damage",
+		"sky:no_fall",
+		"sky:ouch",
+		"sky:wing"
+	],
+	"icon": "minecraft:firework_rocket",
+	"order": 10,
+	"impact": 2,
+	"name": "Skyborne",
+	"description": "Natural in the air and love to soar"
+}

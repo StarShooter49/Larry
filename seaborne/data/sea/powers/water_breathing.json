@@ -1,29 +1,24 @@
 {
     "type": "origins:stacking_status_effect",
-    "min_stacks": -20,
-    "max_stacks": 3,
-    "duration_per_stack": 30,
+    "min_stacks": -1,
+    "max_stacks": 30,
+    "duration_per_stack": 10,
     "effects": [
         {
-            "effect": "minecraft:regeneration",
+            "effect": "minecraft:water_breathing",
             "is_ambient": true,
             "show_particles": false,
             "show_icon": true
         },
         {
-            "effect": "minecraft:speed",
+            "effect": "minecraft:saturation",
             "is_ambient": true,
             "show_particles": false,
             "show_icon": true
-        },
-		{
-			"effect":"minecraft:glowing",
-			"is_ambient":true,
-			"show_particles":false,
-			"show_icon": true
-		}
+        }
     ],
     "condition": {
-        "type": "origins:in_rain"
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
     }
 }

@@ -1,0 +1,24 @@
+{
+	"powers": [
+		"sea:break_fast",
+		"sea:breathe",
+		"sea:breathe_two",
+		"sea:climb",
+		"sea:exhaust",
+		"sea:foreverburn",
+		"sea:see",
+		"sea:smolman",
+		"sea:pyrophobia",
+		"sea:water_zoomies",
+		"sea:weaktofire",
+		"sea:hungry",
+		"sea:meat",
+		"sea:ouch",
+		"sea:hot_biome"
+	],
+	"icon": "minecraft:packed_ice",
+	"order": 10,
+	"impact": 2,
+	"name": "seahorse",
+	"description": "mad science has made another"
+}

@@ -1,0 +1,14 @@
+{
+	"powers": [
+		"mine:minefast",
+		"mine:inv",
+		"mine:climb",
+		"mine:rock",
+		"mine:speed"
+	],
+	"icon": "minecraft:stone",
+	"order": 10,
+	"impact": 1,
+	"name": "Miner",
+	"description": "Sam's origin"
+}

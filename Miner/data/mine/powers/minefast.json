@@ -1,0 +1,21 @@
+
+
+{
+ "type" : "origins:multiple",
+ "fast_miner" : {
+  "type" : "origins:modify_break_speed",
+  "modifier" : {
+   "operation" : "multiply_base",
+   "value" : 10
+  },
+  "condition" : {
+   "type" : "origins:exposed_to_sky",
+   "inverted" : "true"
+  }
+ },
+ "name" : "Miner",
+ "description" : "mine faster when underground"
+}
+
+
+

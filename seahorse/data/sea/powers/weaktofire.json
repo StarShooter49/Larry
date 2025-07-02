@@ -1,0 +1,32 @@
+{
+    "type": "origins:modify_damage_taken",
+    "bientity_condition": {
+        "type": "origins:actor_condition",
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:enchantment",
+                        "enchantment": "minecraft:fire_aspect",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    },
+                    {
+                        "type": "origins:enchantment",
+                        "enchantment": "minecraft:flame",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    }
+                ]
+            }
+        }
+    },
+    "modifier": {
+        "name": "Weak to cursed items",
+        "operation": "addition",
+        "value": 4.5
+    }
+}

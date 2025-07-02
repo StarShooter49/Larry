@@ -1,0 +1,7 @@
+{
+  "type": "origins:elytra_flight",
+  "render_elytra": true,
+  "name": "Wings",
+  "description": "You are born with wings that allow you to fly."
+}
+}
