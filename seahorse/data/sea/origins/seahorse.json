@@ -14,7 +14,8 @@
 		"sea:hungry",
 		"sea:meat",
 		"sea:ouch",
-		"sea:hot_biome"
+		"sea:hot_biome",
+		"sea:night_vision"
 	],
 	"icon": "minecraft:packed_ice",
 	"order": 10,
